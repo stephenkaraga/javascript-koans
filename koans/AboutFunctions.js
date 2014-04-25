@@ -58,7 +58,7 @@ describe("About Functions", function() {
       return firstArg;
     }
     
-    expect(returnFirstArg("first", "second", "third")).toBe("first", "second", "third");
+    expect(returnFirstArg("first", "second", "third")).toBe("first");
     
     function returnSecondArg(firstArg, secondArg) {
       return secondArg;

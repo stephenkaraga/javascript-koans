@@ -20,8 +20,7 @@ describe("About Mutability", function() {
   });
 
   it("should expect prototype properties to be public and mutable", function () {
-    function Person(firstname, lastname)
-    {
+    function Person(firstname, lastname) {
       this.firstname = firstname;
       this.lastname = lastname;
     }
